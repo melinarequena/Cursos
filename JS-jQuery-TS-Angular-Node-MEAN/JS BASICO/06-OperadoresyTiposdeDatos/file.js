@@ -41,7 +41,12 @@ parseInt(stringNumero);
 console.log(stringNumero); //44 en string
 
 var sumaValida = entero + Number(stringNumero);
- 
+
 console.log(sumaValida);
+
+
+// VER TIPO DE DATO
+
+console.log(typeof(stringNumero));
 
 
