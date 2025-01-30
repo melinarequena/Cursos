@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8t5Qv9hoArKjwgA25zZgoNoKuhbVU2zc6-A&s");
+    background-size: 50%;
+}
+.box {
+    
+    width: 100vw;
+    height: 200px;
+    background-color: rgba(255, 0, 149, 0.822);
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+span  {
+    font-size: small;
+    color: rgb(117, 12, 63);
+    font-style: italic;
+}
+
+.cajita {
+    width: 150vw;
+    height: 150vh;
+    background-attachment: fixed;
+    background-image: url(https://cdn.sanity.io/images/5vm5yn1d/pro/41c7e7ce298604b0801fc2b1b76371a47e9ebb83-950x633.jpg?fm=webp&q=80);
+}

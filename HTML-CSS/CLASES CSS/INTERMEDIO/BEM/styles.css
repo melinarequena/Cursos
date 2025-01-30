@@ -1,0 +1,16 @@
+.lista__item {
+    color: rgb(36, 36, 36);
+}
+
+.item--danino{
+    color: red;
+}
+
+.item--importante {
+    color: blue;
+}                                 
+
+.lista--vieja{
+    opacity: 0.5;
+    background-color: #ddd;
+}

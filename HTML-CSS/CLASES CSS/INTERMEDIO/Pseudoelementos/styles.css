@@ -1,0 +1,27 @@
+div {
+    padding: 20px;
+}
+
+h1::first-letter { /*SELECCIONA DENTRO DEL ELEMENTO H1, SU PRIEMRA LETRA*/
+    color: red;
+    font-size: 3em;
+    letter-spacing: -8px;
+}
+
+div::first-line{
+    color: green;
+    font-weight: bold;
+}
+
+div::selection{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+input::placeholder{
+    color: blue;
+}
+
+li::marker{
+    color: yellow;
+}

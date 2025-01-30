@@ -1,0 +1,7 @@
+:is(.elemento1, .elemento2, .elemento3) {
+    color: blue;
+}
+
+ul:has(.elemento1) {
+    background-color: gray;
+}

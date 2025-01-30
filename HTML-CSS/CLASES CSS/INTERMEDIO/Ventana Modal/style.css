@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.modal {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.171);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.modal__content {
+    background-color: white;
+    padding: 10px 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.modal__title {
+    margin-top: 10px;
+    text-transform: uppercase;
+}

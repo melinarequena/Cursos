@@ -1,0 +1,31 @@
+/*CADA ORDEN TIENE CIERTO NIVEL DE ESPECIFICIDAD*/
+
+h1 {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+/*CUANDO EL NIVEL DE ESPECIFICIDAD ES EL MISMO, LO QUE IMPORTA ES EL ORDEN 
+(0, 0, 1)*/
+
+.titulo {
+    color: green;
+}
+
+/*CAMBIO LA ESPECIFICIDAD, LLAMANDO POR NOMBRE DE LA CLASE, AHORA ES (0, 0, 1)*/
+
+#titulo {
+    color: fuchsia;
+}
+
+/*LLAMANDO POR ID AHORA TIENE MAXIMA PRIORIDAD (1, 0, 0)*/
+
+/*DANDOLE EL ESTILO DIRECTO EN LA ETIQUETA HTML SUPERA A TODAS*/
+
+h1{
+    color: violet Im !important;
+}
+/*ES LO MAS IMPORTANTE, SOBREEESCRIBE A TODO*/

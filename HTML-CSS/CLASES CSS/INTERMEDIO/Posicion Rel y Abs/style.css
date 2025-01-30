@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    background-color: rgb(222, 255, 238);
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: white;
+    position: relative; /*PUEDO EDITAR SU POSICION*/
+    z-index: 10; /*NECESITA EL RELATIVE*/
+}
+
+.box--blue{
+    background-color: blue;
+    top: 50px;
+    left: 30px;
+    z-index: 30; /*MAS ALTO, QUEDA ARRIBA DE TODO LO QUE ESTE MENOS DE 30*/
+}
+
+.box:first-child{
+    background-color: red;
+    top: 130px;
+    left: 15px;
+    z-index: 20;
+}
+

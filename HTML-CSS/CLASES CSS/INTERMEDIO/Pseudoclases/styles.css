@@ -1,0 +1,58 @@
+h1 {
+    color: blue;
+    font-family: sans-serif;
+    margin: 2px;
+}
+
+h1:hover { /* CAMBIA A ESTE ESTADO CUANDO SE PASA EL CURSOR POR ARRIBA*/
+    color:white;
+    background-color: black;
+}
+
+h1:active{ /*CUANDO DAMOS CLICK*/
+    color: green;
+    background-color: red;
+}
+
+/*SELECCIONANDO EL PRIMER LI*/
+li:first-child {
+    color: red;
+}
+
+/*SELECCIONANDO EL ULTIMO LI*/
+li:last-child {
+    color: blue;
+}
+
+/*SELECCIONANDO EL ELEMENTO 3 LI*/
+li:nth-child(5) {
+    color: red;
+}
+
+/*SELECCIONANDO CADA CIERTOS N LI*/
+/*ME TOMA AL LOREM COMO UN LI*/
+li:nth-child(2n) {
+    color: violet;
+}
+
+/*IDEM PERO QUE IGNORE AL P (LOREM)*/
+li:nth-of-type(5) {
+    color: green;
+}
+
+/*A TODOS NEGRITA MENOS AL ELEMENTO 4*/
+.lista li:not(.elem-EXCLUIR){
+    font-weight: bold;
+}
+
+input[type="checkbox"]:checked {
+
+}
+
+a:link{
+    color: green;/*enlaces no visitados*/
+}
+
+a:visited{
+    color: fuchsia;/*enlaces no visitados*/
+}

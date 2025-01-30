@@ -1,0 +1,58 @@
+.ingrediente-faltante{
+    color: red;
+}
+
+.ingrediente-importante{
+    color: blue;
+}
+
+li {
+    color: brown;
+}
+
+/*SELECTOR DESCENDIENTE */
+ul li { /*li que esten dentro de un ul*/
+    color: blueviolet;
+}
+
+ul strong { /*strong es nieto de ul*/
+    color: darkgreen;
+}
+
+
+/*SELECTOR POR HIJO DIRECTO*/
+ul > strong { /* strong si o si es HIJO de ul*/
+    color: darkred;
+}
+
+
+/*SELECTOR DE HERMANO ADYACENTE: elemento que esta a continuacion mio*/
+/*Selecciono un p que le sigue a h1*/
+h1 + p {
+    color: palevioletred;
+}
+
+/*SELECTOR DE HERMANOS GENERALES*/
+/*Todos los P que le sigan despues de un h1*/
+h1 ~ p {
+    color: green;
+}
+
+/*SELECTOR MULTIPLE*/
+h1, h2{
+    color: darkcyan;
+}
+
+/*SELECTOR POR ATRIBUTOS*/
+
+img[src="../../../CLASES HTML/imagenes/gatito.jpg"] { /*En esa ubi*/
+    width: 100%;
+}
+ 
+img[src$="jpg"] { /*arranca con cuaqueir cosa pero termina con jpg */
+    width: 100%;
+}
+
+img[src^="gatito"] { /*arranca con gatito y termina con cualquier cosa*/
+    width: 100%;
+}
