@@ -48,6 +48,11 @@ class Heroe extends Persona{ //hereda de persona
 
         this.clan = 'Avengers';
     }
+
+    quienSoy() {
+        console.log(`Sobreescribo base: soy ${this.nombre}`);
+        super.quienSoy(); // metodo de clase base
+    }
 }
 
 
