@@ -15,7 +15,7 @@
 
 <h1>
     <?= "Hola, "
-    . $name
+    . $name //concatenamos con el .
     . "<br />" //salto de linea --> inyectamos html
     . "❤️"
     // el <?= reemplaza a <?php echo

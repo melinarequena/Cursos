@@ -5,7 +5,7 @@
 
     $name = "Melina";
 
-    //tipado DINAMICO --> NO NECESARIO DECLARAR TIPO
+    //tipado DINAMICO --> NO NECESARIO DECLARAR TIPO, puede cambiar en tiempo de ejecucion
 
     //tipado DEBIL --> INTENTARA CONVERTIR TIPOS AUTOMATICAMENTE (COMO JS)
 

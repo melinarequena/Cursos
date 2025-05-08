@@ -1,0 +1,3 @@
+C:/Users/melin/Cursos/C/Practica/p1/cmake-build-debug/CMakeFiles/C.dir
+C:/Users/melin/Cursos/C/Practica/p1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/melin/Cursos/C/Practica/p1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
