@@ -1,0 +1,13 @@
+
+.sour-gummy-<uniquifier> {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+*{
+    font-family: Sour Gummy;
+}
